@@ -402,6 +402,18 @@
     [
       "6b11668f-13ef-4c91-bbb0-f51ff7ca4de1",
       "Flash & Memory"
+    ],
+    [
+      "2d6e0293-1e7f-4e64-b0be-64f8e31d184d",
+      "Sensors"
+    ],
+    [
+      "cbdb33e2-7358-400a-9e4f-90e6e23d2619",
+      "CSI"
+    ],
+    [
+      "7c6334e5-4c7d-45e8-95c8-5e99ec478434",
+      "SPE"
     ]
   ],
   "text_variables": {}

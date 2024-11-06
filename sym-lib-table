@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "MIMXRT1052CVJ5B")(type "KiCad")(uri "${KIPRJMOD}/Components/MIMXRT1052CVJ5B.kicad_sym")(options "")(descr ""))
+  (lib (name "IS42S16160J-6BLI")(type "KiCad")(uri "${KIPRJMOD}/Components/IS42S16160J-6BLI.kicad_sym")(options "")(descr ""))
+  (lib (name "S26KS512SDPBHV020")(type "KiCad")(uri "${KIPRJMOD}/Components/S26KS512SDPBHV020.kicad_sym")(options "")(descr ""))
+  (lib (name "DP83TC813SRHFRQ1")(type "KiCad")(uri "${KIPRJMOD}/Components/DP83TC813SRHFRQ1.kicad_sym")(options "")(descr ""))
 )
