@@ -4,4 +4,8 @@
   (lib (name "IS42S16160J-6BLI")(type "KiCad")(uri "${KIPRJMOD}/Components/IS42S16160J-6BLI.kicad_sym")(options "")(descr ""))
   (lib (name "S26KS512SDPBHV020")(type "KiCad")(uri "${KIPRJMOD}/Components/S26KS512SDPBHV020.kicad_sym")(options "")(descr ""))
   (lib (name "DP83TC813SRHFRQ1")(type "KiCad")(uri "${KIPRJMOD}/Components/DP83TC813SRHFRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/Components/MMC5983MA.kicad_sym")(options "")(descr ""))
+  (lib (name "BMI088")(type "KiCad")(uri "${KIPRJMOD}/Components/BMI088.kicad_sym")(options "")(descr ""))
+  (lib (name "STSPIN250")(type "KiCad")(uri "${KIPRJMOD}/Components/STSPIN250.kicad_sym")(options "")(descr ""))
+  (lib (name "DLW32MH201XK2L")(type "KiCad")(uri "${KIPRJMOD}/Components/DLW32MH201XK2L.kicad_sym")(options "")(descr ""))
 )

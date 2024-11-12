@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "1d1f81ec-036b-412b-93b6-f999fec26f74")
 	(paper "A4")
+	(title_block
+		(title "RT1050 DevBoard for Project Horizon")
+		(rev "v1")
+		(company "Northeastern University")
+		(comment 1 "Built by Madhav Kapa")
+	)
 	(lib_symbols
 		(symbol "Connector:SD_Card_Device"
 			(exclude_from_sim no)

@@ -414,6 +414,18 @@
     [
       "7c6334e5-4c7d-45e8-95c8-5e99ec478434",
       "SPE"
+    ],
+    [
+      "1717ddd0-007d-45d1-b2d6-3a5f196579be",
+      "CAN Bus"
+    ],
+    [
+      "fc14ecf5-8f75-43c0-a12a-1b84b2e334ca",
+      "HopeRF"
+    ],
+    [
+      "72e9a789-8fe7-413e-81ff-40ca14e4e7a2",
+      "Connectors"
     ]
   ],
   "text_variables": {}

@@ -121,6 +121,16 @@
                         <data>true</data>
                      </feature>
                   </dependency>
+                  <dependency resourceType="Peripheral" resourceId="PWM1" description="Peripheral PWM1 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="PWM2" description="Peripheral PWM2 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
                   <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
                      <feature name="enabled" evaluation="equal" configuration="core0">
                         <data>true</data>
@@ -239,6 +249,10 @@
                   <pin peripheral="ADC2" signal="IN, 14" pin_num="M13" pin_signal="GPIO_AD_B1_09"/>
                   <pin peripheral="ADC1" signal="IN, 14" pin_num="M13" pin_signal="GPIO_AD_B1_09"/>
                   <pin peripheral="CMP3" signal="IN, 5" pin_num="M13" pin_signal="GPIO_AD_B1_09"/>
+                  <pin peripheral="PWM1" signal="A, 3" pin_num="A11" pin_signal="GPIO_B1_00"/>
+                  <pin peripheral="PWM1" signal="B, 3" pin_num="B11" pin_signal="GPIO_B1_01"/>
+                  <pin peripheral="PWM2" signal="A, 3" pin_num="C11" pin_signal="GPIO_B1_02"/>
+                  <pin peripheral="PWM2" signal="B, 3" pin_num="D11" pin_signal="GPIO_B1_03"/>
                </pins>
             </function>
          </functions_list>

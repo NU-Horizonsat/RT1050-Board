@@ -3,8 +3,52 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "dd9d031d-43a1-4442-b493-27451a14e0d9")
-	(paper "A4")
+	(paper "A5")
+	(title_block
+		(title "RT1050 DevBoard for Project Horizon")
+		(rev "v1")
+		(company "Northeastern University")
+		(comment 1 "Built by Madhav Kapa")
+	)
 	(lib_symbols)
+	(sheet
+		(at 119.38 15.24)
+		(size 20.32 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1717ddd0-007d-45d1-b2d6-3a5f196579be")
+		(property "Sheetname" "CAN Bus"
+			(at 119.38 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 119.38 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RT1050"
+				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
+					(page "10")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 13.97 43.18)
 		(size 20.32 19.05)
@@ -44,7 +88,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 15.24)
+		(at 93.98 15.24)
 		(size 20.32 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +100,7 @@
 		)
 		(uuid "6b11668f-13ef-4c91-bbb0-f51ff7ca4de1")
 		(property "Sheetname" "Flash & Memory"
-			(at 88.9 14.5284 0)
+			(at 93.98 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +109,7 @@
 			)
 		)
 		(property "Sheetfile" "flash.kicad_sch"
-			(at 88.9 35.5096 0)
+			(at 93.98 35.5096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +126,45 @@
 		)
 	)
 	(sheet
-		(at 63.5 43.18)
+		(at 119.38 43.18)
+		(size 20.32 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "72e9a789-8fe7-413e-81ff-40ca14e4e7a2")
+		(property "Sheetname" "Connectors"
+			(at 119.38 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 119.38 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RT1050"
+				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 43.18)
 		(size 20.32 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -94,7 +176,7 @@
 		)
 		(uuid "7c6334e5-4c7d-45e8-95c8-5e99ec478434")
 		(property "Sheetname" "SPE"
-			(at 63.5 42.4684 0)
+			(at 67.31 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +185,7 @@
 			)
 		)
 		(property "Sheetfile" "spe.kicad_sch"
-			(at 63.5 62.8146 0)
+			(at 67.31 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +202,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 43.18)
+		(at 40.64 43.18)
 		(size 20.32 19.05)
 		(fields_autoplaced yes)
 		(stroke
@@ -132,7 +214,7 @@
 		)
 		(uuid "cbdb33e2-7358-400a-9e4f-90e6e23d2619")
 		(property "Sheetname" "CSI"
-			(at 39.37 42.4684 0)
+			(at 40.64 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +223,7 @@
 			)
 		)
 		(property "Sheetfile" "csi.kicad_sch"
-			(at 39.37 62.8146 0)
+			(at 40.64 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,7 +240,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 15.24)
+		(at 67.31 15.24)
 		(size 20.32 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -170,7 +252,7 @@
 		)
 		(uuid "e7bf8fe4-6546-499a-993e-2f0e673a2a11")
 		(property "Sheetname" "USB & Debug"
-			(at 63.5 14.5284 0)
+			(at 67.31 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +261,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_debug.kicad_sch"
-			(at 63.5 35.5096 0)
+			(at 67.31 35.5096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,7 +278,7 @@
 		)
 	)
 	(sheet
-		(at 39.37 15.24)
+		(at 40.64 15.24)
 		(size 20.32 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -208,7 +290,7 @@
 		)
 		(uuid "ef9a9590-bc2d-4a19-b722-cc119a748157")
 		(property "Sheetname" "MCU Power"
-			(at 39.37 14.5284 0)
+			(at 40.64 14.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +299,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu_power.kicad_sch"
-			(at 39.37 35.5096 0)
+			(at 40.64 35.5096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -229,6 +311,44 @@
 			(project "RT1050"
 				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 43.18)
+		(size 20.32 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc14ecf5-8f75-43c0-a12a-1b84b2e334ca")
+		(property "Sheetname" "HopeRF"
+			(at 93.98 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hoperf.kicad_sch"
+			(at 93.98 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RT1050"
+				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
+					(page "11")
 				)
 			)
 		)
