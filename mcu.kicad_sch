@@ -4128,10 +4128,6 @@
 		(color 0 0 0 0)
 		(uuid "eba5983f-0b51-434b-90ea-3823ed7e2709")
 	)
-	(no_connect
-		(at 196.85 68.58)
-		(uuid "c9877e63-683c-4dfe-b565-8b8513846291")
-	)
 	(wire
 		(pts
 			(xy 39.37 27.94) (xy 49.53 27.94)
@@ -5043,6 +5039,28 @@
 		(uuid "927f4810-d5b4-44aa-a01a-d15930471962")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 210.9628 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWDN"
+		(shape input)
+		(at 196.85 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95d638c5-6b42-4149-b686-0e7da2fecbcc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.1571 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 19.05 25.4 0)
 			(effects
 				(font
@@ -7132,7 +7150,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 39.37 25.4 0)
 			(effects
 				(font
@@ -7202,7 +7220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 49.53 25.4 0)
 			(effects
 				(font
@@ -7272,7 +7290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 29.21 25.4 0)
 			(effects
 				(font

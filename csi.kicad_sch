@@ -979,16 +979,6 @@
 		)
 		(uuid "f31cf08a-dc68-46d9-86c8-beb618e26a55")
 	)
-	(text "????\n"
-		(exclude_from_sim no)
-		(at 72.136 65.278 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ebd519fb-9e9b-440b-9065-6bb17135b526")
-	)
 	(global_label "CSI_MCLK"
 		(shape input)
 		(at 36.83 77.47 0)
@@ -1586,7 +1576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_FFC-FPC:Molex_200528-0200_1x20-1MP_P1.00mm_Horizontal"
 			(at 31.75 54.61 0)
 			(effects
 				(font

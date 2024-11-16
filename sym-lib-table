@@ -8,4 +8,6 @@
   (lib (name "BMI088")(type "KiCad")(uri "${KIPRJMOD}/Components/BMI088.kicad_sym")(options "")(descr ""))
   (lib (name "STSPIN250")(type "KiCad")(uri "${KIPRJMOD}/Components/STSPIN250.kicad_sym")(options "")(descr ""))
   (lib (name "DLW32MH201XK2L")(type "KiCad")(uri "${KIPRJMOD}/Components/DLW32MH201XK2L.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP23009-E")(type "KiCad")(uri "${KIPRJMOD}/Components/MCP23009-E.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS22921")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS22921.kicad_sym")(options "")(descr ""))
 )
