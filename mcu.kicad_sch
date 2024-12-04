@@ -4105,6 +4105,12 @@
 		(uuid "51416e65-7101-42ec-b059-fbd2179aa069")
 	)
 	(junction
+		(at 130.81 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9904a5c1-4e98-4678-83ab-d7fdf5a538ba")
+	)
+	(junction
 		(at 49.53 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4127,6 +4133,32 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eba5983f-0b51-434b-90ea-3823ed7e2709")
+	)
+	(no_connect
+		(at 196.85 60.96)
+		(uuid "08ae4b9c-2de7-4354-b757-ed5955d2d336")
+	)
+	(no_connect
+		(at 196.85 66.04)
+		(uuid "2618abd1-2ba6-433f-bd05-99181328ec87")
+	)
+	(no_connect
+		(at 114.3 57.15)
+		(uuid "4a1811e2-e0cd-436d-b280-e5ccd64a027b")
+	)
+	(no_connect
+		(at 196.85 68.58)
+		(uuid "99a7342f-2740-40a2-b822-bc1748bfdfae")
+	)
+	(wire
+		(pts
+			(xy 130.81 45.72) (xy 130.81 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4a1f90-6fc8-4f45-bb07-1ab297cefc21")
 	)
 	(wire
 		(pts
@@ -4210,6 +4242,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 41.91) (xy 114.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6ca19bf-2f79-4c7b-8783-bfc6e3bf6f3a")
+	)
+	(wire
+		(pts
 			(xy 60.96 29.21) (xy 60.96 31.75)
 		)
 		(stroke
@@ -4220,6 +4262,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 41.91) (xy 130.81 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c1a2d4-341d-4f28-9758-b7634c403512")
+	)
+	(wire
+		(pts
 			(xy 60.96 31.75) (xy 60.96 34.29)
 		)
 		(stroke
@@ -4227,28 +4279,6 @@
 			(type default)
 		)
 		(uuid "fd5fefe5-432a-478f-8396-5766a20f1c62")
-	)
-	(global_label "XRS"
-		(shape input)
-		(at 196.85 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "075ab94a-62e6-4073-9b3b-f916fb7dfb85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.5242 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "LPSPI4_SDI"
 		(shape input)
@@ -4307,6 +4337,48 @@
 		(uuid "0b58fddc-85d1-4baf-9455-d9ff9cb47f6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.4379 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO4"
+		(shape bidirectional)
+		(at 196.85 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "112165ad-7da6-4e7c-8ef3-1f205c59136a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_B0_13"
+		(shape input)
+		(at 196.85 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12c8f0c8-fc07-450f-b706-aa4b114a1ac2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.1442 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,48 +4562,6 @@
 			)
 		)
 	)
-	(global_label "LDO_EN"
-		(shape input)
-		(at 196.85 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c12745e-d3b7-4bfd-9f9e-d6efb318b994")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 206.9109 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "INT_N_IO_EXP"
-		(shape input)
-		(at 196.85 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c2e5a0e-c08c-4b95-874d-0048a9234749")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LPSPI4_CS"
 		(shape input)
 		(at 196.85 30.48 0)
@@ -4572,26 +4602,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIO0"
-		(shape bidirectional)
-		(at 114.3 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "45834f82-b4c4-4f01-95b4-2e02eb126b1c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4682,28 +4692,6 @@
 			)
 		)
 	)
-	(global_label "PWDN"
-		(shape input)
-		(at 196.85 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56c93827-2633-4f92-b420-ecd905467ad3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.1571 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CSI_MCLK"
 		(shape input)
 		(at 114.3 88.9 0)
@@ -4748,8 +4736,8 @@
 			)
 		)
 	)
-	(global_label "RESET_N_IO_EXP"
-		(shape input)
+	(global_label "DIO0"
+		(shape bidirectional)
 		(at 196.85 48.26 0)
 		(effects
 			(font
@@ -4757,7 +4745,7 @@
 			)
 			(justify left)
 		)
-		(uuid "667c2fc9-022a-4ca5-9617-d3e6ee49314a")
+		(uuid "61d6dcb7-aa25-4e43-bdbf-b11feb7f268b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 196.85 48.26 0)
 			(effects
@@ -4982,6 +4970,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_AD_B0_05"
+		(shape input)
+		(at 130.81 45.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b50d47d-281a-41e3-acb7-c4430b03d434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 63.3404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ENET_RX_ER"
 		(shape input)
 		(at 196.85 102.87 0)
@@ -5048,9 +5058,9 @@
 			)
 		)
 	)
-	(global_label "PWDN"
+	(global_label "GPIO_AD_B0_04"
 		(shape input)
-		(at 196.85 68.58 0)
+		(at 114.3 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5058,9 +5068,9 @@
 			)
 			(justify left)
 		)
-		(uuid "95d638c5-6b42-4149-b686-0e7da2fecbcc")
+		(uuid "968ddab5-298d-4f03-baae-7162a615e0b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.1571 68.58 0)
+			(at 131.9204 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5368,7 @@
 	)
 	(global_label "CSI_DATA_8"
 		(shape input)
-		(at 114.3 41.91 0)
+		(at 134.62 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5368,7 +5378,7 @@
 		)
 		(uuid "cef3aa54-8b17-4d6d-b632-d0dd3ea53206")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.929 41.91 0)
+			(at 148.249 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,26 +5606,6 @@
 			)
 		)
 	)
-	(global_label "DIO4"
-		(shape bidirectional)
-		(at 114.3 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb71e076-2c12-401c-9fa5-ac54e47b257e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 19.05 22.86 0)
@@ -5730,6 +5720,24 @@
 		)
 		(property "Description" ""
 			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" ""
+			(at 106.68 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" ""
+			(at 106.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 19.05 25.4 0)
 			(effects
 				(font
@@ -6381,6 +6389,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 19.05 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" ""
+			(at 19.05 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" ""
 			(at 19.05 25.4 0)
 			(effects
 				(font
@@ -6478,7 +6504,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "408a6602-ed35-4e9f-8100-8827fa727159")
 		(property "Reference" "U1"
 			(at 178.435 20.32 0)
@@ -6518,6 +6543,24 @@
 		)
 		(property "Description" ""
 			(at 142.24 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" ""
+			(at 167.64 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" ""
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 39.37 25.4 0)
 			(effects
 				(font
@@ -7169,6 +7212,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" ""
+			(at 39.37 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" ""
 			(at 39.37 25.4 0)
 			(effects
 				(font
@@ -7220,7 +7281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 49.53 25.4 0)
 			(effects
 				(font
@@ -7239,6 +7300,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" ""
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" ""
 			(at 49.53 25.4 0)
 			(effects
 				(font
@@ -7290,7 +7369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 29.21 25.4 0)
 			(effects
 				(font
@@ -7309,6 +7388,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" ""
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" ""
 			(at 29.21 25.4 0)
 			(effects
 				(font

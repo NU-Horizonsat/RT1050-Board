@@ -1603,6 +1603,24 @@
 				(hide yes)
 			)
 		)
+		(property "Flight" ""
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" ""
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "61b96b65-a0b8-426f-9a5a-fa54bc1d19dd")
 		)
