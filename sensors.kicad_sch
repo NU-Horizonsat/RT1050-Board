@@ -2091,10 +2091,6 @@
 		(uuid "1e5463f2-59ff-4d3a-a7ab-86880067a149")
 	)
 	(no_connect
-		(at 260.35 77.47)
-		(uuid "60324c69-8636-4ba4-aabe-5163f5455282")
-	)
-	(no_connect
 		(at 162.56 100.33)
 		(uuid "6295c233-3c60-4314-95f9-9a69dcf4c736")
 	)
@@ -2746,6 +2742,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SHDN"
+		(shape input)
+		(at 260.35 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bedaf849-c2ca-493f-9efc-861c96d7bd6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4116,7 +4132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
 			(at 252.73 48.26 0)
 			(effects
 				(font

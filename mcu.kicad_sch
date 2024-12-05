@@ -4147,6 +4147,10 @@
 		(uuid "4a1811e2-e0cd-436d-b280-e5ccd64a027b")
 	)
 	(no_connect
+		(at 196.85 55.88)
+		(uuid "9232b079-ad61-4515-8d2f-7b5628c4f8e4")
+	)
+	(no_connect
 		(at 196.85 68.58)
 		(uuid "99a7342f-2740-40a2-b822-bc1748bfdfae")
 	)
@@ -4494,26 +4498,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SHDN"
-		(shape input)
-		(at 196.85 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ffa1258-0722-43aa-adbf-60161484257b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
