@@ -2739,7 +2739,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 95.2563 95.25 90)
 			(effects
 				(font
@@ -2891,7 +2891,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 95.2563 106.68 90)
 			(effects
 				(font

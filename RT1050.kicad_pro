@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -180,9 +180,8 @@
       "track_widths": [
         0.0,
         0.1,
-        0.3,
-        0.328364,
-        0.5
+        0.123952,
+        0.156464
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -494,7 +493,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RT1050.step",
       "svg": "",
       "vrml": ""
     },
